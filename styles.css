@@ -1,0 +1,258 @@
+/* Normalise CSS */
+body{
+    background-color: black;
+    padding:0;
+    box-sizing: border-box;
+    margin:0;
+    font-family:Helvetica,Arial,  sans-serif;
+    height:100%;
+    width:100%;
+}
+
+.container
+{
+    width:100%;
+    max-width:1250px;
+    margin:0 auto;
+
+}
+/* Header CSS */
+.header-cont
+{
+    
+    display:flex;
+    height:100px;
+    flex-direction:row;
+    justify-content:space-between;
+}
+header
+{
+    /* background-color:grey; */
+   
+    font-family: Helvetica,Arial,sans-serif;
+   
+
+    /* width:100%; */
+    
+}
+
+.left-cont,.right-cont
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.brand-logo
+{
+    max-width: 110px;
+    object-fit: contain;
+    margin:0px 24px 0px 4em;
+}
+.main-nav
+{
+    list-style-type:none;
+    display:inline-flex;
+    flex-direction:row;
+    font-size: 20px;
+    /* margin:0em 0em 0em 4em; */
+    
+}
+.nav-item
+{
+    color:#e5e5e5;
+    margin-right:24px;
+    opacity: 0.83;
+}
+.nav-item:active
+{
+    color:white;
+    opacity:1;
+    font-weight: 500;
+}
+.right-cont
+{
+    display:flex;
+    flex-direction:row;
+    justify-items: flex-start;
+    padding-right:2em;
+}
+.right-cont>svg
+{
+    color:white;
+    margin-right:22px;
+    cursor:pointer;
+}
+.right-cont>img
+{
+    max-width:40px;
+    margin-right:22px;
+    cursor:pointer;
+
+}
+
+/* Movies Section */
+.container
+{
+    width:100%;
+    max-width:1250px;
+    margin:0em 0em 0em 4em;
+}
+
+.movies-section-and-heading
+{
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+    line-height: 1.2;
+    cursor:pointer;
+    margin: 2em 0em 1em 0em; 
+}
+.explore
+{
+    color:#5b49c5;
+    font-size:14px;
+    display:none;
+}
+.movies-section-and-heading:hover .explore{
+
+    display:inline-block;
+    margin:0em auto 0em 1em;
+}
+.movies-section-and-heading
+{
+    margin:2em auto 2em 3.4em;
+}
+.movies-row
+{
+    display:flex;
+   
+    width:100%;
+    box-sizing: border-box;
+    justify-items: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    overflow-x:visible;
+    overflow-y: hidden;
+    padding:0em 0em 0em 0em;
+    margin:0em auto 1em 4.2em;
+  
+
+}
+*::-webkit-scrollbar
+{
+    display:none;
+}
+/* .movie-items>img
+{
+    height:300px;
+    width:245px;
+} */
+
+.movie-items{
+
+    
+    width:300px;
+    object-fit: contain;
+    margin-right:6px;
+    border-radius: 6px;
+    /* position:relative; */
+    
+}
+
+.movie-items:hover
+{
+    transform:scale(1.3,1.2);
+    transition:transform ease 200ms;
+}
+
+
+/* Updated Movie Section*/
+.movies-corner
+{
+    padding:0em 0em 0em 0em;
+    /* display:flex; */
+    box-sizing: border-box;
+
+}
+
+/* Banner Section Started */
+.banner-content
+{
+    display:flex;
+    flex-direction :column;
+    max-width:100%;
+    min-height:90vh;
+    margin:1em 3.4em 1em 4em;
+    font-family: Helvetica,Arial,  sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position:relative;
+    
+}
+.banner-title
+{
+    font-size:78px;
+    line-height:1.2;
+    margin-bottom:16px;
+    margin-top:2em;
+}
+.banner-info
+{
+    margin-bottom:14px;
+    font-size:22px;
+    font-weight:700;
+    line-height:1.5;
+
+}
+.banner-overview
+{
+    font-size:16.4px;
+    color:white;
+    line-height:1.3;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+.banner_fadeBottom
+{
+    height:120px;
+    background:linear-gradient(180deg,transparent,rgba(37,37,37,.61),#141414);
+    opacity: .2;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+.action-btn-cnt
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    /* padding-left:1em; */
+}
+.action-btn:last-child
+{
+    background-color: rgba(109,109,110,.6);
+    color:white;
+    cursor:pointer;
+}
+.action-btn
+{
+    border:none;
+    background-color: white;
+    padding:8px 23px;
+    margin-right:11px;
+    border-radius:4px;
+    align-items:center;
+    font-size:16px;
+    font-weight: 700;
+}
+/* RESPONSIVE CSS */
+@media(max-width:767px)
+{
+
+    .main-nav{
+        display:none;
+    }
+}

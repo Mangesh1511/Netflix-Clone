@@ -1,0 +1,12 @@
+ <div class="movies-section"> 
+
+            <h2 class="movies-section-and-heading">Trending Now<span class="explore">Explore All</span></h2>
+
+            <div class="movies-row">
+                <img class="movie-items" src="https://image.tmdb.org/t/p/original/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg" alt="" >
+                <img class="movie-items" src="https://image.tmdb.org/t/p/original/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg" alt="">
+                <img class="movie-items" src="https://image.tmdb.org/t/p/original/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg" alt="">
+                <img class="movie-items" src="https://image.tmdb.org/t/p/original/5s6BJd2vK5J2EQzGpX6OhHg9MM3.jpg" alt="">
+                <img class="movie-items" src="https://image.tmdb.org/t/p/original/zGoZB4CboMzY1z4G3nU6BWnMDB2.jpg" alt="">
+            </div>  
+                   </div> 
